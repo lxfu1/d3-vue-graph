@@ -1,0 +1,10 @@
+**/*.svg
+**/*.html
+*.md
+package.json
+lib
+es
+dist
+node_modules
+*.ejs
+*.min.js
