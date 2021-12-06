@@ -322,7 +322,7 @@ export default {
           .ease(d3.easeLinear)
           .duration(duration)
           // .delay((index + 1) * duration) // 依次展开
-          .delay(index === 0 ? 0 : duration * 0.75) // 一次展开
+          .delay(duration * 0.9) // 一次展开
           .attr('fill-opacity', 1);
       });
       // 以 duration 的时间间隔定时查询节点状态，如果边上的2个节点已经过度好，执行边动画
