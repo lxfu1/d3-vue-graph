@@ -18,139 +18,63 @@ export default {
        */
       nodes: [
         {
-          id: '数澜医院',
-          name: '数澜医院',
-          color: '#CA63F5',
-          x: 0.7,
-          y: 0.65,
-        },
-        {
-          id: '张三',
-          name: '张三',
-          color: '#AAAAFF', // 不知道匹配规则，直接写死
-          x: 0.5,
-          y: 0.55,
-        },
-        {
-          id: '李四',
-          name: '李四',
-          color: '#AAAAFF',
-          x: 0.2,
-          y: 0.65,
-        },
-        {
-          id: '高支模',
-          name: '高支模',
-          color: '#AAAAFF',
-          x: 0.6,
-          y: 0.85,
-        },
-        {
-          id: '山东',
-          name: '山东',
-          color: '#AAAAFF',
-          x: 0.85,
-          y: 0.35,
-        },
-        {
-          id: '水泥',
-          name: '水泥',
-          color: '#55CCCC',
-          x: 0.8,
-          y: 0.78,
-        },
-        {
-          id: '安全员',
-          name: '安全员',
-          color: '#55CCCC',
-          x: 0.6,
-          y: 0.35,
-        },
-        {
-          id: '施工员',
-          name: '施工员',
-          color: '#55CCCC',
-          x: 0.34,
-          y: 0.7,
-        },
-        {
-          id: '高温雨季',
-          name: '高温雨季',
-          color: '#55CCCC',
-          x: 0.54,
-          y: 0.78,
-        },
-        {
-          id: '安全专项',
-          name: '安全专项',
-          color: '#CA63F5',
-          x: 0.76,
-          y: 0.45,
-        },
-        {
-          id: '中建八局',
-          name: '中建八局',
-          color: '#CA63F5',
-          x: 0.33,
-          y: 0.43,
-        },
-        {
-          id: '道路安全规范',
-          name: '道路安全规范',
-          color: '#CA63F5',
-          x: 0.6,
-          y: 0.5,
+          id: '数澜医院', name: '数澜医院', color: '#CA63F5', x: 0.3212011310171421, y: 0.5013640125217536,
+        }, {
+          id: '水泥', name: '水泥', color: '#55CCCC', x: 0.0662939262612241, y: 0.6237089703989482,
+        }, {
+          id: '安全员', name: '安全员', color: '#CA63F5', x: 0.7643417862602012, y: 0.8669983965223007,
+        }, {
+          id: '施工员', name: '施工员', color: '#55CCCC', x: 0.6679490350819621, y: 0.43620519023811055,
+        }, {
+          id: '高温雨季安全专项', name: '高温雨季安全专项', color: '#55CCCC', x: 0.82076841096744695, y: 0.4871580922309455,
+        }, {
+          id: '中建八局', name: '中建八局', color: '#CA63F5', x: 0.6566095535018828, y: 0.7108407582448829,
+        }, {
+          id: '道路安全规范', name: '道路安全规范', color: '#AAAAFF', x: 0.5993312121643075, y: 0.35081757480169684,
+        }, {
+          id: '高支模安全应急预案', name: '高支模安全应急预案', color: '#55CCCC', x: 0.20279228095156054, y: 0.18537608384743733,
+        }, {
+          id: '安全专项方案', name: '安全专项方案', color: '#55CCCC', x: 0.7996968487187811, y: 0.3737280338110722,
+        }, {
+          id: '剪刀墙', name: '剪刀墙', color: '#55CCCC', x: 0.4361059084024217, y: 0.41484097867780423,
+        }, {
+          id: '山东济南', name: '山东济南', color: '#AAAAFF', x: 0.5702207436635575, y: 0.4943809823345643,
+        }, {
+          id: '智能建造', name: '智能建造', color: '#55CCCC', x: 0.5553759654803966, y: 0.90465708668557,
+        }, {
+          id: '数字建造', name: '数字建造', color: '#55CCCC', x: 0.6815802526413997, y: 0.14472942576007908,
+        }, {
+          id: '山东第一设计院', name: '山东第一设计院', color: '#55CCCC', x: 0.22875078860644105, y: 0.36222008020910557,
+        }, {
+          id: '山东第一监理公司', name: '山东第一监理公司', color: '#55CCCC', x: 0.3860952123947859, y: 0.7447015486449265,
+        }, {
+          id: '钢筋', name: '钢筋', color: '#55CCCC', x: 0.8380653416224637, y: 0.6268099168150139,
+        }, {
+          id: '百度', name: '百度', color: '#55CCCC', x: 0.2248461559358539, y: 0.6474649750112433,
+        }, {
+          id: '上海总部', name: '上海总部', color: '#55CCCC', x: 0.8742100068245729, y: 0.21135871848686252,
+        }, {
+          id: '中铁财智中心', name: '中铁财智中心', color: '#CA63F5', x: 0.35261655636966647, y: 0.231142919957653,
+        }, {
+          id: '模板工程', name: '模板工程', color: '#55CCCC', x: 0.42182929747224658, y: 0.5865797420018556,
+        }, {
+          id: '智能写作', name: '智能写作', color: '#AAAAFF', x: 0.12899670128141905, y: 0.8472399736952392,
+        }, {
+          id: '物联网', name: '物联网', color: '#55CCCC', x: 0.3388976674192894, y: 0.8585428819118202,
+        }, {
+          id: '设计图纸', name: '设计图纸', color: '#AAAAFF', x: 0.08669900068513181, y: 0.31833429472804275,
+        }, {
+          id: '数澜医院设计图', name: '数澜医院设计图', color: '#CA63F5', x: 0.9182236077939948, y: 0.7705622612244249,
         },
       ],
-      links: [
-        {
-          source: '水泥',
-          target: '数澜医院',
-        },
-        {
-          source: '安全员',
-          target: '施工员',
-        },
-        {
-          source: '高温雨季',
-          target: '安全专项',
-        },
-
-        {
-          source: '中建八局',
-          target: '道路安全规范',
-        },
-        {
-          source: '施工员',
-          target: '数澜医院',
-        },
-        {
-          source: '安全员',
-          target: '数澜医院',
-        },
-        {
-          source: '安全专项',
-          target: '数澜医院',
-        },
-        {
-          source: '中建八局',
-          target: '数澜医院',
-        },
-        {
-          source: '中建八局',
-          target: '安全员',
-        },
-        {
-          source: '中建八局',
-          target: '施工员',
-        },
-      ],
+      links: [{ source: '数澜医院', target: '水泥' }, { source: '安全员', target: '施工员' }, { source: '高温雨季', target: '安全专项' }, { source: '中建八局', target: '道路安全规范' }, { source: '数澜医院', target: '安全员' }, { source: '数澜医院', target: '安全专项' }, { source: '数澜医院', target: '中建八局' }, { source: '中建八局', target: '安全员' }, { source: '中建八局', target: '施工员' }, { source: '数澜医院', target: '高支模' }, { source: '数澜医院', target: '安全应急预案' }, { source: '数澜医院', target: '安全专项方案' }, { source: '数澜医院', target: '剪刀墙' }, { source: '数澜医院', target: '山东济南' }, { source: '数澜医院', target: '智能建造' }, { source: '数澜医院', target: '数字建造' }, { source: '数澜医院', target: '山东第一设计院' }, { source: '数澜医院', target: '山东第一监理公司' }, { source: '数澜医院', target: '钢筋' }, { source: '高温雨季方案', target: '安全应急预案' }, { source: '雄安建筑项目', target: '安全应急预案' }, { source: '中建八局', target: '安全应急预案' }, { source: '中建八局', target: '山东第一设计院' }, { source: '中建八局', target: '百度' }, { source: '中建八局', target: '上海总部' }, { source: '中建八局', target: '中铁财智中心' }, { source: '中建八局', target: '数字建造' }, { source: '中建八局', target: '智能建造' }, { source: '中建八局', target: '物资盘点' }, { source: '中建八局', target: '安全应急预案' }, { source: '模板工程', target: '安全应急预案' }, { source: '中铁财智中心', target: '数字建造' }, { source: '中铁财智中心', target: '智能写作' }, { source: '百度', target: '物联网' }, { source: '中建八局', target: '物联网' }, { source: '山东第一设计院', target: '设计图纸' }, { source: '山东第一设计院', target: '数澜医院设计图' }],
       svg: null,
     };
   },
   mounted() {
-    // this.processDara(STATISTICDATA);
-    const { nodes, links } = this;
+    const {
+      nodes, links,
+    } = this;
     this.createGraph(
       {
         nodes,
@@ -180,14 +104,14 @@ export default {
         linkStrokeOpacity = 0.6, // link stroke opacity
         linkStrokeWidth = 2, // given d in links, returns a stroke width in pixels
         linkStrokeLinecap = 'round', // link stroke linecap
-        width = 800, // outer width, in pixels
-        height = 800, // outer height, in pixels
+        width = 1200, // outer width, in pixels
+        height = 1200, // outer height, in pixels
         radius = 250, // layout radius
-        duration = 1000, // animation duration time(ms)
+        duration = 1200, // animation duration time(ms)
         showArrows = true, // whether to show end arrow
       } = {},
     ) {
-      const heightLightNode = ['数澜医院'];
+      const heightLightNode = ['数澜医院', '中建八局'];
       const getArrowOffset = (x1, y1, x2, y2) => {
         const expandNodeRadius = nodeRadius + 6;
         let offsetX = 0;
@@ -270,7 +194,7 @@ export default {
       const nodeLength = originNodes.length - 1;
       const dagre = (360 / nodeLength) * (Math.PI / 180);
       const [centerX, centerY] = [width / 2, height / 2];
-      const randomRadius = radius / 4;
+      const randomRadius = radius / 6;
       const randomCenterRadius = radius / 2;
       originNodes.forEach((node, index) => {
         const negative = Math.random();
@@ -299,12 +223,15 @@ export default {
         // 使用固定位置
         nodePosition[node.id] = {
           x: width * node.x,
-          y: width * node.y,
+          y: height * node.y,
         };
       });
       /** Loop processing edge, need to draw to the lowest level */
       originLinks.forEach((link, index) => {
         const { source, target } = link;
+        if (!nodePosition[source] || !nodePosition[target]) {
+          return;
+        }
         const { x, y } = nodePosition[source];
         const { x: targetX, y: targetY } = nodePosition[target];
         const { offsetX, offsetY } = showArrows ? getArrowOffset(x, y, targetX, targetY) : { offsetX: 0, offsetY: 0 };
